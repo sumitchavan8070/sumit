@@ -54,7 +54,7 @@ function HeaderImage() {
           >
             <Image
               alt="Enji Kusnadi Illustration"
-              src="/assets/images/me.png"
+              src="/assets/images/me1.png"
               width={457}
               height={526}
               className={clsx(

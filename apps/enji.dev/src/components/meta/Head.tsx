@@ -19,15 +19,13 @@ function Head({
 }: HeadProps) {
   const currentUrl = useCurrentUrl();
 
-  const htmlTitle = overrideTitle
-    ? title
-    : `${title} — Enji · Front-End Developer`;
+  const htmlTitle = overrideTitle ? title : `${title} - Sumit Chavan`;
 
   return (
     <NextHead>
       <title>{htmlTitle}</title>
       <meta name="description" content={description} />
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/favicon.png" />
 
       {/* seo */}
       <link rel="canonical" href={currentUrl} />
