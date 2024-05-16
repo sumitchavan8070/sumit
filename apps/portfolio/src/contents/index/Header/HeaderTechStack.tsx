@@ -3,7 +3,6 @@ import { m } from 'framer-motion';
 
 import {
   FigmaIcon,
-  FramerMotionIcon,
   NextJsIcon,
   ReactIcon,
   TailwindCssIcon,
